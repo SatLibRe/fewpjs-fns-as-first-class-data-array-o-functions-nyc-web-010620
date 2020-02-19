@@ -27,3 +27,6 @@ const unleashDog = (name, breed) => {
   console.log(`Unleash ${name} the ${breed}`);
   return `Unleash ${name} the ${breed}`
 }
+
+const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
+
